@@ -19,7 +19,5 @@ time.sleep(2)
 submit = driver.find_element(By.ID, "idSIButton9").click()
 time.sleep(2)
 no_back = driver.find_element(By.ID, "idBtn_Back").click()
-
-# bt_log_in = driver.find_element(By.CLASS_NAME, "button__empty").click()
-# bt_log_in = driver.find_element(By.XPATH, "/html/body/header/div[2]/a[2]").click()
+driver.close()
 
