@@ -19,5 +19,5 @@ time.sleep(2)
 submit = driver.find_element(By.ID, "idSIButton9").click()
 time.sleep(2)
 no_back = driver.find_element(By.ID, "idBtn_Back").click()
-driver.close()
+# driver.close()
 
