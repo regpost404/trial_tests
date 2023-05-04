@@ -9,5 +9,5 @@ input_google = driver.find_element("name","q")
 input_google.send_keys("hello qa")
 input_google.send_keys(Keys.RETURN)
 assert "hello qa - Google Search" in driver.title
-# driver.close()
+driver.close()
 
